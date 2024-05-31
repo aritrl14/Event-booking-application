@@ -69,7 +69,7 @@ const Home = ({ cart, setCart }) => {
   const filteredItems = Events.filter((product) => {
     
     if (filters.category && product.category !== filters.category) return false;
-    if (filters.charges && product.charges > parseFloat(filters.charges)) return false; // Ensure comparison is correct
+    if (filters.charges && product.charges > parseFloat(filters.charges)) return false; 
     if (filters.eventtype && product.eventtype !== filters.eventtype) return false;
 
     return true;
