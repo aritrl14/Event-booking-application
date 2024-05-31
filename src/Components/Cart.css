@@ -1,0 +1,35 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .cart-item-image {
+    height: 50vh;
+    width: 25vw;
+    margin-right: 20px;
+  }
+  
+ 
+  .remove-button {
+    color: red;
+ 
+    margin-left: 14rem;
+  }
+  .btn-go-checkout { 
+    color: white; 
+    font-size: 14px;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 13rem;
+    height: 6vh;
+    background-color:#BF40BF;
+    text-align: center;
+    padding: 8px;
+ margin-bottom: 7px;
+ border-radius: 4px;
+  
+  }
+  

@@ -1,0 +1,249 @@
+.main {
+  width: 100%;
+  background-color: #FF2E2E;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+}
+
+.search-area input[type="search"] {
+  padding: 5px 10px;
+  height: 30px;
+  width: 25vw;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-left: 14rem;
+}
+
+.search-area input[type="search"]:focus {
+  border-color: #007bff;
+}
+
+.sign-in {
+  margin-left: 20rem;
+}
+
+
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.card-item {
+  max-width: 500px;
+  margin: 1rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-button {
+  background-color: red;
+  color: white;
+  margin-top: 8px;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.filters div {
+  margin-bottom: 10px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-section {
+  flex: 1 1 70%;
+  margin-right: 20px;
+}
+
+.filter-container {
+  flex: 1 1 30%;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.filter-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.card-section {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-item {
+  width: calc(33.333% - 20px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-button {
+  background-color: red;
+  color: white;
+  margin-top: 8px;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.container-side {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sidebar {
+  height: 30vh;
+  width: 25vw;
+}
+
+
+/* style.css */
+.container-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.content-side {
+  width: 75%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cat {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sidebar-label-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebar-label-container input {
+  margin-right: 10px;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.checkmark:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #2196F3;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+}
+
+.sidebar-label-container input:checked~.checkmark:after {
+  transform: scale(1);
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+}
+
+.card p {
+  margin: 0 0 10px;
+}
+
+.card button {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #1976D2;
+}
