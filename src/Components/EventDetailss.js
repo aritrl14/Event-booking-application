@@ -6,7 +6,7 @@ const EventDetailss = ({ events = [], addToCart }) => {
   const { eventId } = useParams();
   const navigate = useNavigate();
 
-  // Find the event by its ID
+  // Finding the event by its ID
   const event = events.find(event => event.id.toString() === eventId);
 
   const handleAddToCart = () => {
