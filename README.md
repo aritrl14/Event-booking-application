@@ -46,8 +46,8 @@ cd ticketbooking < npm start
 
 🌐 Technologies Used
 
-
 'React.js
 'Context api to manage searchTerm state.
+'Used mui library for icons(DeleteIcon,carousel)
 
 Happy coding! 🎉
